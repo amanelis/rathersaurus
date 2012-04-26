@@ -1,0 +1,307 @@
+body{
+	font-size: 12px;
+	font-family: Georgia;
+}
+
+
+/* HYPERLINKS / COLORS */
+a:link{color: black;}
+a:hover{color: blue;}
+a:visited{color: #48a30b;}
+#content .normal ul.newsList li p a.more{color: #48a30b;}
+#footer .footerList li{color: #808080;}
+#footer .footerList li:hover{color: #48a30b;}
+#footer .copyright{color: #808080;}
+.blue{color: #48a30b;}
+
+#content .normal h3, #content .wide h3{color: #48a30b;}	
+#content ul.newsList h3{color: #48a30b;}
+#index #container #leaderboard .intro h2{color: #48a30b;}
+	
+	
+	
+/* CONTENT + SIDEBAR - HOME & ABOUT /*
+
+/* CONTENT - NORMAL */
+
+#content .normal{
+	width: 617px;
+	background: url(http://rathersaur.us/img/content/normal_bg.jpg) repeat-y;
+	margin-left: 42px;
+	margin-bottom: 20px;
+	float:left;
+}
+
+#content .normal .top{
+	width: 617px;
+	height: 13px;
+	background: url(http://rathersaur.us/img/content/normal_top.jpg) no-repeat;
+}
+
+#content .normal .bottom{
+	width: 617px;
+	height: 43px;
+	background: url(http://rathersaur.us/img/content/normal_bottom.jpg) no-repeat;
+	margin-top: 15px;
+}
+
+/* CONTENT SUB PAGE STYLE */
+
+#content .normal_bottom{
+	width: 617px;
+	height: 30px;
+	background: url(http://rathersaur.us/img/content/normal_normal_bottom.jpg) no-repeat;
+}
+
+#content .services img{margin: 10px 0 0 0;} 
+#content .social{
+position: relative;
+right: 0px;
+text-align: right;
+}
+#content .services .post{
+margin: 0 20px 20px 0px;
+padding: 6px;
+border: solid #48a30b 1px;
+background-color: #ccff99;
+
+} 
+
+
+.main-text {margin: 0 15px;}
+
+/* END CONTENT SUB PAGE STYLE */
+
+/* CONTENT - WIDE */
+
+#content .wide{
+	width: 941px;
+	background: url(http://rathersaur.us/img/content/wide_bg.jpg) repeat-y;
+	margin-left: 42px;
+	margin-bottom: 20px;
+	float:left;
+}
+
+#content .wide .top{
+	width: 941px;
+	height: 13px;
+	background: url(http://rathersaur.us/img/content/wide_top.jpg) no-repeat;
+}
+
+#content .wide .bottom{
+	width: 941px;
+	height: 30px;
+	background: url(http://rathersaur.us/img/content/wide_bottom.jpg) no-repeat;
+}
+
+
+#content .bottom .link{
+	float:right;
+	padding-top: 18px;
+	padding-right: 20px;
+}
+
+#content .normal .txt,
+#content .wide .txt{
+	padding: 10px;
+	color: #666666;
+	line-height: 22px;
+}
+
+#content .normal .txt p,
+#content .wide .txt p{
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+#content .normal ul.bulletList,
+#content .wide ul.bulletList{
+	margin-left: 40px;
+}
+
+#content .normal ul.bulletList li,
+#content .wide ul.bulletList li{
+	background: url(http://rathersaur.us/img/bullet.png) no-repeat left;
+	padding-left: 20px;
+}
+
+#content .normal .hr{
+	background: url(http://rathersaur.us/img/content/hr_bg.jpg) no-repeat;
+	width: 590px;
+	height: 28px;
+	border: 0;
+}
+
+#content .wide .hr{
+	background: url(http://rathersaur.us/img/content/hr_wide_bg.jpg) no-repeat;
+	width: 878px;
+	height: 18px;
+	border: 0;
+}
+
+#content .normal ul.newsList{
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+#content .normal ul.newsList li{
+	clear: both;
+	padding-top: 20px;
+}
+
+#content .normal ul.newsList li .avatar{
+	float:left;
+	width: 252px;
+}
+
+#content .normal ul.newsList li div{
+	width: 280px;
+	float:right;
+	margin-right: 20px;
+}
+
+#content .normal ul.newsList li p{
+	line-height: 20px;
+	color: #666666;
+	padding: 0;
+	margin: 0;
+}
+
+
+#content .normal .attention,
+#content .wide .attention{
+	margin-top: 8px;
+}
+
+
+/* RIGHT - SIDEBAR */
+
+#content .right{
+	width: 303px;
+	float: left;
+	margin-left: 22px;
+	margin-bottom: 20px;
+}
+
+/* SIDEBAR - INDEX STYLE */
+
+#content .sidebar{
+	width: 303px;
+	background: url(http://rathersaur.us/img/sidebar/sidebar_bg.jpg) repeat-y;
+	margin-top: 21px;
+}
+
+#content .sidebar .hr{
+	background: transparent url(http://rathersaur.us/img/sidebar/sidebar_hr_bg.jpg) no-repeat;
+	width: 295px;
+	height: 28px;
+	border: 0;
+}
+
+#content .sidebar_top{
+	width: 303px;
+	height: 8px;
+	background: url(http://rathersaur.us/img/sidebar/sidebar_top.jpg) no-repeat;
+}
+
+#content .sidebar_bottom{
+	width: 303px;
+	height: 44px;
+	background: url(http://rathersaur.us/img/sidebar/sidebar_bottom.jpg) no-repeat;
+}
+
+#content .sidebar_bottom .link{
+	float:right;
+	padding-top: 18px;
+	padding-right: 20px;
+}
+
+#content .sidebar .txt{
+	padding: 10px 15px 15px;
+}
+
+#content .sidebar .txt p{
+	line-height: 18px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	color: #666666;
+}
+
+#content .sidebar .txt p .contact{line-height: 24px;}
+
+#content .sidebar ul.twitterList{
+	margin-top: 10px;
+}
+
+#content .sidebar ul.twitterList li{
+	background: url(http://rathersaur.us/img/sidebar/quote_icon.jpg) no-repeat left top;
+	display: block;
+	padding-left: 25px;
+	color: #666;
+	margin-top: 11px;
+	margin-bottom: 11px;
+	line-height: 16px;
+}
+
+#content .ad{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left:2px;
+}
+
+#content .sidebar .saur{
+	margin-bottom: 15px;
+	margin-left:2px;
+}
+
+/* SIDEBAR SUBPAGE STYLE */
+
+#content .sidebar_normal_bottom{
+	width: 303px;
+	height: 30px;
+	background: url(http://rathersaur.us/img/sidebar/sidebar_normal_bottom.jpg) no-repeat;
+}
+
+/* END SIDEBAR SUBPAGE STYLE */
+
+/* FOOTER */
+
+#footer{
+	background: #000000 url(http://rathersaur.us/img/footer_bg.jpg) repeat-x top center;
+	width: 100%;
+	height: 60px;
+	margin-top: 24px;
+	font-family: "Lucida Sans";
+}
+
+#footer h2{
+	padding: 0;
+	margin: 0;
+}
+
+#footer .footerList{
+	margin-top: 25px;
+	margin-left: 51px;
+	padding-right: 15px;
+	padding-top: 10px;
+	float: left;
+}
+
+#footer .footerWrap{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#footer .footerList li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#footer .copyright{
+	clear: both;
+	margin-left: 51px;
+	padding-top: 25px;
+	font-size: 10px;
+}
+
+

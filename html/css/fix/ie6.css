@@ -1,0 +1,21 @@
+#index #container,
+#sub_page #container{
+	width: 1060px;
+}
+
+#index #content .clientList{
+	margin-left: 84px;
+}
+
+#content .right{
+	margin-left: 14px;
+}
+
+#footer .copyright{
+	margin-left: 102px;
+}
+
+#media_page #content .wide .galleryList div{
+	margin: 0px !important;
+	width:210px !important;
+}

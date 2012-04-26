@@ -1,0 +1,84 @@
+body#index{
+	background: #bdbfc3 url(http://rathersaur.us/img/index/index_bg.jpg) repeat-x;
+}
+
+/* CONTAINER */
+
+#index #container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+#index #container #header{
+	height: 90px;
+}
+
+#index #container #header .logo{
+	float: left;
+	width: 158px;
+	height: 47px;
+	margin-left: 50px;
+	margin-top: 21px;
+}
+
+
+/* LEADERBOARD */
+
+#index #container #leaderboard{
+	clear: both;
+	background: transparent url(http://rathersaur.us/img/index/index_leaderboard.jpg) no-repeat;
+	height: 281px;
+	margin-top: 0px;
+}
+
+#index #container #leaderboard .avatar{
+	width: 333px;
+	padding-top: 43px;
+	padding-left: 107px;
+	float:left;
+}
+
+#index #container #leaderboard .intro{
+	float:left;
+	margin-left: 20px;
+	margin-top: 70px;
+	width: 520px;
+}
+
+/* CONTENT */
+
+#index #content{
+	clear: both;
+	background: transparent url(http://rathersaur.us/img/index/index_content_bg.jpg) no-repeat;
+	padding-top: 25px;
+}
+
+/* CLIENT LIST */
+
+#content .clientList{
+	clear: both;
+	width: 944px;
+	height: 135px;
+	background: #FFF url(http://rathersaur.us/img/index/clients_list_bg.jpg) no-repeat;
+	margin-left: 42px;
+}
+
+#content .clientList h2{
+	padding-top: 55px;
+	padding-left: 15px;
+	float:left;
+}
+
+#content .clientList ul.brands{
+	float:right;
+	padding-top: 35px;
+	padding-right: 55px;
+}
+
+#content .clientList ul.brands li{
+	display: inline;
+	margin-left: 8px;
+	margin-right: 8px;
+}

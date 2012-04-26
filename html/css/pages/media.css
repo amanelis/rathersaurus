@@ -1,0 +1,127 @@
+body#media_page{
+	background: #bdbfc3 url(http://rathersaur.us/img/sub_page/sub_page_bg.jpg) repeat-x;
+}
+
+/* CONTAINER */
+
+#media_page #container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+#media_page #container #header{
+	height: 90px;
+	margin-bottom: 20px;
+}
+
+#media_page #container #header .logo{
+	float: left;
+	width: 158px;
+	height: 47px;
+	margin-left: 50px;
+	margin-top: 21px;
+}
+
+/* CONTENT */
+
+#media_page #content{
+	clear: both;
+	padding-top: 25px;
+}
+
+#content .wide .attention.media{ 
+	width: 500px;
+	float:left;
+}
+
+#content .wide .laptop{
+	background: transparent url(http://rathersaur.us/img/media/laptop.jpg) no-repeat;
+	width: 260px;
+	height: 141px;
+	float: right; 
+	margin: 15px 20px 0 0;
+}
+
+#content .wide .laptop img{
+	padding-left: 36px;
+	padding-top: 7px;
+}
+
+#media_page #content .wide .txt{
+	margin-left: 15px;
+}
+
+
+#media_page #content .wide .galleryList div{
+	background: url(http://rathersaur.us/img/media/image_holder.jpg) no-repeat;
+	width: 218px;
+	height: 158px;
+	float: left;
+	margin-right: 2px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+}
+
+#media_page #content .wide .galleryList img{
+	padding-left: 11px;
+	padding-top: 12px;
+}
+
+#media_page #content .wide .galleryPrev{
+	background: url(http://rathersaur.us/img/media/previous_normal.jpg) no-repeat;
+	width: 87px;
+	height: 25px;
+	cursor: pointer;
+	float: left;
+}
+
+#media_page #content .wide .galleryPrev:hover{
+	background: url(http://rathersaur.us/img/media/previous_hover.jpg) no-repeat;
+	width: 87px;
+	height: 25px;
+	cursor: pointer;
+}
+
+#media_page #content .wide .galleryNext{
+	background: url(http://rathersaur.us/img/media/next_normal.jpg) no-repeat;
+	width: 87px;
+	height: 25px;
+	cursor: pointer;
+	float: right;
+	margin-right: 10px;
+}
+
+#media_page #content .wide .galleryNext:hover{
+	background: url(http://rathersaur.us/img/media/next_hover.jpg) no-repeat;
+	width: 87px;
+	height: 25px;
+	cursor: pointer;
+}
+
+#galleryNav {float: right; margin-top:-35px; margin-right:16px; z-index: 99;}
+
+	.nav1{background: url(http://rathersaur.us/img/image-gallery-top-nav-1.jpg) no-repeat;
+	width: 90px;
+	height: 31px;
+	cursor: pointer;
+	text-indent:-9999px;
+	float: left;}
+	
+	.nav2{background: url(http://rathersaur.us/img/image-gallery-top-nav-2.jpg) no-repeat;
+	width: 90px;
+	height: 31px;
+	cursor: pointer;
+	text-indent:-9999px;
+	float: left;}
+	
+	.nav3{background: url(http://rathersaur.us/img/image-gallery-top-nav-3.jpg) no-repeat;
+	width: 90px;
+	height: 31px;
+	cursor: pointer;
+	text-indent:-9999px;
+	float: left;}
+	
+#GallerySlide {margin: 0 0 0 2px; padding: 0;}
+

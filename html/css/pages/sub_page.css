@@ -1,0 +1,36 @@
+body#sub_page{
+	background: #bdbfc3 url(http://rathersaur.us/img/sub_page/sub_page_bg.jpg) repeat-x;
+}
+
+/* CONTAINER */
+
+#sub_page #container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+#sub_page #container #header{
+	height: 90px;
+	margin-bottom: 20px;
+}
+
+#sub_page #container #header .logo{
+	float: left;
+	width: 158px;
+	height: 47px;
+	margin-left: 50px;
+	margin-top: 21px;
+}
+
+/* CONTENT */
+
+#sub_page #content{
+	clear: both;
+	padding-top: 25px;
+}
+
+#sub_page #content .normal .txt{
+	margin-left: 15px;
+}
